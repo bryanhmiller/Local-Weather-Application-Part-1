@@ -1,6 +1,6 @@
 $(document).ready(() => {
 
-	const apiKey = "d8d93c76ba0e411ee16dc2b892de9acc";
+	const apiKey = "";
 	let zipCode = 37129;
 
 	// $("#zip-code").val();
