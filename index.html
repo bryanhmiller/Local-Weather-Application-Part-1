@@ -6,7 +6,18 @@
 	<link rel="stylesheet" type="text/css" href="./styles/main.css">
 </head>
 <body>
-	<h1>I am here.</h1>
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Enter ZipCode" id="zip-code">
+				<span class="input-group-btn">
+					<button class="btn btn-default" type="button" id="submit">SUBMIT</button>
+				</span>
+			</div><!-- /input-group -->
+		</div><!-- /.col-lg-6 -->
+	</div><!-- /.row -->
+
+	<div id="show-forecast"></div>
 
 
 	<script type="text/javascript" src="./lib/bower_components/jquery/dist/jquery.js"></script>
